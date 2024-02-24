@@ -1,0 +1,166 @@
+body {
+	background-color: black;
+	margin: 0px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	color: grey;
+}
+/*
+#container {
+	position: absolute;
+	margin-top: 0px;
+	width: 100%;
+	background-image: url("header.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+*/
+
+#header__content {
+	display: flex;
+	margin-top: 0px;
+	text-align: center;
+	color: white;
+}
+
+#header__tittle {
+	height: 250px;
+	padding-right: 25px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+#header__tittle h1,
+#header__tittle h2,
+#header__tittle span {
+	height: 5px;
+}
+
+#text__content,
+#linkList {
+	padding: 25px;
+	width: 420px;
+}
+
+#intro h3 {
+	width: 315px;
+	height: 75px;
+}
+
+p.p1 {
+	color: whitesmoke;
+}
+
+p.p1,
+p.p2,
+p.p3 {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 8px;
+}
+
+#text__information h3 {
+	width: 315px;
+	height: 10px;
+	margin: 0px;
+	padding: 25px 0 0 0;
+}
+
+#link_list {
+	position: absolute;
+	top: 320px;
+	left: 450px;
+	width: 100px;
+	height: auto;
+	z-index: 1;
+}
+
+#link__list2 {
+	margin-top: 0.px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+#right__nav__bar {
+	width: 100px;
+	height: auto;
+	color: whitesmoke;
+}
+
+#right__nav__bar h3 {
+	width: 229px;
+	height: 40px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#right__nav__bar ul {
+	margin-top: 5px;
+}
+
+#right__nav__bar li {
+	border-bottom: 1px dotted white;
+	width: 100px;
+	margin-bottom: 8px;
+}
+
+#right__nav__bar .c {
+	text-transform: capitalize;
+}
+
+#right__nav__bar a {
+	display: block;
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+#right__nav__bar a:hover {
+	display: block;
+	font-weight: bold;
+	color: #04706b;
+	background-color: #FFFFFF;
+}
+
+#link__selection a {
+	font-weight: bold;
+	color: white;
+}
+
+#link__selection li {
+	width: 100px;
+	list-style-position: outside;
+}
+
+#link__selection {
+	width: 100px;
+	height: 170px;
+}
+
+#link__selection h3 {
+	width: auto;
+	height: 10px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#footer {
+	width: 470px;
+	height: 15px;
+	text-align: center;
+	margin-top: 30px;
+	padding: 10px;
+}
